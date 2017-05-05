@@ -1,0 +1,14 @@
+# Like in project 1, print out a rectangle.
+
+# Print ten rows.
+i = 0 ;
+while ( i < 10 ) {
+  # on each row, print 20 stars.
+  j = 0 ;
+  while ( j < 20 ) {
+    print "*" ;
+    j = j + 1 ;
+  }
+  print "\n" ;
+  i = i + 1 ;
+}

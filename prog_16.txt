@@ -1,0 +1,21 @@
+# Some special cases for expressions.
+
+# Uninitialized variables evaluate to empty-string.
+print x ;
+print "\n" ;
+
+# Values that don't parse as doubles evaluate to zero.
+print x + 1 ;
+print "\n" ;
+
+print "abc" + 5 ;
+print "\n" ;
+
+# empty string evaluates to false.
+if ( x )
+  print "This should not print\n" ;
+
+# but zero doesn't evaluate to false in this language.
+y = 0 ;
+if ( y )
+  print "This should print\n" ;

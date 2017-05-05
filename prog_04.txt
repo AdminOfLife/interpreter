@@ -1,0 +1,13 @@
+# All four arithmetic operators, one at a time.
+
+print 1.2 + 3.4 ;
+print "\n" ;
+
+print 4.5 - 2.1 ;
+print "\n" ;
+
+print 2.455 * 3.92 ;
+print "\n" ;
+
+print 7.25 / 3.13 ;
+print "\n" ;

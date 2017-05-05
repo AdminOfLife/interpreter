@@ -1,0 +1,26 @@
+# trying out assignment with other arithmetic operators.
+
+a = 1 ;
+b = 25 ;
+c = 75 ;
+d = 100 ;
+
+# Addition
+b = b + 1 ;
+print b ;
+print "\n" ;
+
+# Subtraction
+b = b - 1 ;
+print b ;
+print "\n" ;
+
+# Multiplicaton
+x = b * c ;
+print x ;
+print "\n" ;
+
+# Division
+y = d / b ;
+print y ;
+print "\n" ;

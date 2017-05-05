@@ -1,0 +1,18 @@
+# Test with parentheses to change evaluation order.
+
+a = 1 ;
+b = 2 ;
+c = 3 ;
+d = 4 ;
+
+print a + ( b * c ) ;
+print "\n" ;
+
+print  b * ( c + d ) ;
+print "\n" ;
+
+print  c - ( ( a + b ) * d ) ;
+print "\n" ;
+
+print  a / ( b + c + d ) ;
+print "\n" ;

@@ -1,0 +1,25 @@
+# test of the if statement.
+
+a = 25.000000 ;
+b = 50.000000 ;
+c = 75.000000 ;
+
+if ( a < b )
+   print "test 1 should print\n" ;
+
+if ( b < a ) {
+   print "test 2 should not print" ;
+   print "\n";
+}
+
+# Make a larger than b.
+a = a * 3 ;
+
+if ( b < a ) {
+   print "test 3 should print" ;
+   print "\n";
+}
+
+if ( a < b )
+   print "test 4 this should not print\n" ;
+

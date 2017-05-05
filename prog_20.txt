@@ -1,0 +1,7 @@
+# Unmatched parentheses.
+a = 1 ;
+b = 2 ;
+c = 3 ;
+d = a + 2 ;
+e = ( c + d ;
+f = e + f ) ;

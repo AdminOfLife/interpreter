@@ -1,0 +1,21 @@
+# Showing that, without parentheses, we just get left-to-right
+# evaluation order, with no attention to precedence.  If you
+# do the extra credit, you'll fail this test (but it won't cost
+# you anything if you get the extra credit tests right).
+
+# Exactly what you'd expect, left-to-right evaluation order.
+print 1 + 2 + 3 + 4 + 5 ;
+print "\n" ;
+
+# With our kind-of-dumb parser, this will do the add before
+# the multiply.
+print 1 + 2 * 3 ;
+print "\n" ;
+
+# Same here, add before divide.
+print 1 + 2 / 3 ;
+print "\n" ;
+
+# But here the multiply goes first, since it's on the left.
+print 2 * 3 + 1 ;
+print "\n" ;

@@ -1,0 +1,37 @@
+# Trying out operators == and <
+
+a = "abc" ;
+b = 123 ;
+c = 345 ;
+d = "abc" ;
+
+# Should be true (t)
+print "test1: " ;
+print a == d ;
+print "\n" ;
+
+# Should be false (empty string)
+print "test2: " ;
+print a == b ;
+print "\n" ;
+
+# Should be true (t)
+print "test3: " ;
+print b < c ;
+print "\n" ;
+
+# Should be false (empty string)
+print "test4: " ;
+print c < b ;
+print "\n" ;
+
+# This is stupid, but == is a string compare, so
+# these two won't be equal.
+print "test5: " ;
+print b + 1 == 124 ;
+print "\n" ;
+
+# But, these will be equal.
+print "test6: " ;
+print c + 1 == "346.000000" ;
+print "\n" ;

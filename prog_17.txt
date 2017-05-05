@@ -1,0 +1,13 @@
+# Test to detect variable names that are too long.
+
+# Legal variable names.
+a = 25 ;
+bc = 205.21 ;
+cd123 = 0.00123 ;
+_a_ = 35 ;
+
+# one that's the maximum length
+v1234567890123456789 = 55 ;
+
+# one that's too long.
+efghijklmnopqrstuvwxyz = 55 ;

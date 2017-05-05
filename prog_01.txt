@@ -1,0 +1,3 @@
+# A program containing just one statement, one that
+# prints a literal string.  Nothing fancy (yet).
+print "Hello World\n" ;

@@ -1,0 +1,13 @@
+# A program is just a sequence of statements.
+print "Hello" ;
+
+# So, at the top level, you don't need to wrap a
+# multi-statement program in a compound statement.
+print " World\n" ;
+
+# But, you can if you want to.  A compound statement
+# is just a sequence of statements inside a block.
+{
+  print "Goodbye " ;
+  print "World\n" ;
+}

@@ -1,0 +1,7 @@
+# This will successfully print an output line.
+x = "abc\n" ;
+print x ;
+
+# But it will hit a syntax error when it tries to parse this.
+y = "xyz\n"
+print y ;

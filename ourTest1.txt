@@ -1,0 +1,7 @@
+print 1 == 1 ;
+print "\n" ;
+print 1 == 0 ;
+print "\n" ;
+print 1 < 5 ;
+print "\n" ;
+print 1 < 0 ;

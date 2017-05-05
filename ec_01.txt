@@ -1,0 +1,17 @@
+# some variables to use in expressions.
+
+a = 5 ;
+b = 10 ;
+c = 15 ;
+d = 20 ;
+
+# * and / have higher precedence than + or -
+print a + b * 2 - c / 5 ;
+print "\n";
+
+# But, parentheses can still change things.
+print ( a + b ) * ( 2 - c ) / 5 ;
+print "\n";
+
+print ( ( ( a + b ) * 2 ) - c ) / 5 ;
+print "\n";

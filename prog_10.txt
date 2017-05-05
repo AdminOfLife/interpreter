@@ -1,0 +1,38 @@
+# test of the && and || operators.
+
+a = 25.000000 ;
+b = 50.000000 ;
+c = 75.000000 ;
+d = 100.000000 ;
+
+print "test1: " ;
+print ( a < b ) && ( c < d ) ;
+print "\n" ;
+
+print "test12 " ;
+print ( b < a ) && ( c < d ) ;
+print "\n" ;
+
+print "test13 " ;
+print ( b < a ) && ( d < c ) ;
+print "\n" ;
+
+print "test14 " ;
+print ( a < b ) && ( d < c ) ;
+print "\n" ;
+
+print "test5: " ;
+print ( a < b ) || ( c < d ) ;
+print "\n" ;
+
+print "test16 " ;
+print ( b < a ) || ( c < d ) ;
+print "\n" ;
+
+print "test17 " ;
+print ( b < a ) || ( d < c ) ;
+print "\n" ;
+
+print "test18 " ;
+print ( a < b ) || ( d < c ) ;
+print "\n" ;

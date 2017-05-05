@@ -1,0 +1,19 @@
+# some variables to use in expressions.
+
+a = 5 ;
+b = 10 ;
+c = 15 ;
+d = 20 ;
+
+# || has the lowest precedence, followed by &&
+print a + a == b + 0 || a * 3 == c / 1 && d < c ;
+print "\n";
+
+print ( a + a == b + 0 || a * 3 == c / 1 ) && d < c ;
+print "\n";
+
+print a + 4 < b || a + 6 == b + 2 && a * 3 < c ;
+print "\n";
+
+print ( a + 4 < b || a + 6 == b + 2 ) && a * 3 < c ;
+print "\n";

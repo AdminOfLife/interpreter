@@ -1,0 +1,10 @@
+# Trying out assignment to a variable.
+
+x = 25 ;
+y = "Hello World" ;
+
+print x ;
+print "\n" ;
+
+print y ;
+print "\n" ;

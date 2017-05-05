@@ -1,0 +1,11 @@
+# All numeric values are represented as strings.  When we parse
+# a statement, we make sure any numbers can be parsed as a double
+# but we still store them as strings.
+print 1 ;
+print "\n" ;
+
+# When we do math on numbers, we parse their
+# value as a double, then store the result
+# back as a string.
+print 1.5 + 3.14 ;
+print "\n" ;

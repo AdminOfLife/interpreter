@@ -1,0 +1,19 @@
+# test of the while loop
+
+# A loop with just one statement in the body
+i = 0 ;
+while ( i < 10 )
+  i = i + 1 ;
+
+# See if i got to 10
+print "i should be 10: " ;
+print i ;
+print "\n" ;
+
+# Count down, multiple statements in the body.
+while ( 0 < i ) {
+   print i ;
+   print "\n" ;
+   i = i - 1 ;
+}
+

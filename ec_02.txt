@@ -1,0 +1,26 @@
+# some variables to use in expressions.
+
+a = 5 ;
+b = 10 ;
+c = 15 ;
+d = 20 ;
+
+# Arithmetic operators have higher precedence than < and ==
+print a + 4 < b + 1 ;
+print "\n";
+
+print a * 4 < b / 2 ;
+print "\n";
+
+print b * a == d * 3 - b ;
+print "\n";
+
+print d - 5 == c + 5 ;
+print "\n";
+
+# and < has higher precedence than ==
+print a < b == c < d ;
+print "\n";
+
+print b < a == c < d ;
+print "\n";

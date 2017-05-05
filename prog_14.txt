@@ -1,0 +1,19 @@
+# Just like the previous program, but uses conditionals to print
+# a hollow rectangle
+
+i = 0 ;
+while ( i < 10 ) {
+  j = 0 ;
+  while ( j < 20 ) {
+    # Print as a * or as a . for the inside
+    # This is a bit difficult with just one inequality operator
+    # and, without an else clause for the if statement.
+    if ( ( 0 < j ) && ( j < 19 ) && ( 0 < i ) && ( i < 9 ) )
+      print "." ;
+    if ( ( j < 1 ) || ( 18 < j ) || ( i < 1 ) || ( 8 < i ) )
+      print "*" ;
+    j = j + 1 ;
+  }
+  print "\n" ;
+  i = i + 1 ;
+}
